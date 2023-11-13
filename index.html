@@ -6,7 +6,79 @@
   <title>Weather Prediction - Materialize</title>
   <link href="css\style2.css" type="text/css" rel="stylesheet">
 </head>
+<style>
+  /* Add your custom styles here */
 
+body {
+    background-color: #f3f2f2;
+    font-family: 'Arial', sans-serif;
+  }
+
+  #logo-container {
+    max-height: 64px; /* Adjust the maximum height as needed */
+    padding: 10px; /* Optional padding around the logo */
+  }
+  
+  #logo-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Centers the image horizontally within the container */
+  }
+  
+  
+  nav {
+    background-color: #83a5b6 !important;
+  }
+  
+  nav a {
+    color: #ffffff !important;
+  }
+  
+  .header {
+    margin-top: 0;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .btn-large {
+    background-color: #e4b36a;
+    color: #fff;
+  }
+  
+  .btn-large:hover {
+    background-color: #eeb47a;
+  }
+  
+  .page-footer {
+    background-color: #a3d8aa;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    .input-field {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .btn-large {
+      width: 100%;
+    }
+  }
+  
+</style>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container">
